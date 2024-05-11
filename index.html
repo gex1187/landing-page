@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Helior - Investi nel tuo futuro</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header, footer { background-color: #111; color: #fff; padding: 20px; text-align: center; }
+    .hero { background: url('hero-image.jpg') no-repeat center center; background-size: cover; color: #fff; padding: 100px 20px; text-align: center; }
+    .cta-button { background-color: #FFD700; border: none; color: #111; padding: 15px 30px; text-transform: uppercase; }
+    .section { padding: 60px 20px; text-align: center; }
+    .section:nth-child(even) { background-color: #f9f9f9; }
+    .testimonial { background-color: #fff; border: 1px solid #ddd; padding: 20px; margin: 20px; }
+    .contact-form input, .contact-form textarea { width: 100%; padding: 10px; margin: 10px 0; }
+    .contact-form button { background-color: #FFD700; border: none; padding: 15px 30px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Helior</h1>
+  <nav>
+    <a href="#chi-siamo" style="color: #fff; margin: 0 10px;">Chi Siamo</a>
+    <a href="#servizi" style="color: #fff; margin: 0 10px;">Servizi</a>
+    <a href="#contatti" style="color: #fff; margin: 0 10px;">Contatti</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h1>Chi ha bisogno di una mappa del tesoro? Con Helior, il vero oro è già nelle tue mani!</h1>
+  <p>Scopri come proteggere e far crescere il tuo patrimonio con investimenti sicuri in oro.</p>
+  <button class="cta-button">Scopri di più</button>
+</div>
+
+<section class="section" id="perche-oro">
+  <h2>Perché Investire in Oro?</h2>
+  <p>L'oro è un bene rifugio che protegge il tuo capitale.</p>
+  <p>Investire in oro significa valorizzare il tuo patrimonio nel tempo.</p>
+  <p>L'oro è un investimento stabile in un mondo instabile.</p>
+</section>
+
+<section class="section" id="testimonianze">
+  <h2>Cosa dicono i nostri clienti</h2>
+  <div class="testimonial">
+    <p>“Investire con Helior è stata la scelta migliore per il mio futuro finanziario.” - Mario R.</p>
+  </div>
+  <div class="testimonial">
+    <p>“Con Helior, mi sento sicuro e protetto. Consiglio vivamente.” - Laura B.</p>
+  </div>
+</section>
+
+<section class="section contact-form" id="contatti">
+  <h2>Contattaci</h2>
+  <form action="submit_form.php" method="post">
+    <input type="text" name="name" placeholder="Nome" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <input type="tel" name="phone" placeholder="Telefono" required>
+    <textarea name="message" placeholder="Messaggio" rows="4" required></textarea>
+    <button type="submit">Invia</button>
+  </form>
+  <p>Email: info@helior.com | Telefono: 123-456-7890</p>
+</section>
+
+<footer>
+  <p>&copy; 2024 Helior. Tutti i diritti riservati.</p>
+  <p>
+    <a href="https://www.facebook.com/helior" style="color: #fff; margin: 0 10px;">Facebook</a>
+    <a href="https://www.twitter.com/helior" style="color: #fff; margin: 0 10px;">Twitter</a>
+    <a href="https://www.instagram.com/helior" style="color: #fff; margin: 0 10px;">Instagram</a>
+  </p>
+</footer>
+
+</body>
+</html>
